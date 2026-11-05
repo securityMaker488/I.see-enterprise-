@@ -1,0 +1,32 @@
+{
+  "_synthetic": "Dados 100% sintéticos para demonstração. Nenhuma pessoa real.",
+  "endpoint": "GET /api/v1/verticals/school/attendance/today (formato ilustrativo; bloco meal_planning em desenvolvimento)",
+  "date": "2026-11-05",
+  "unit": "Escola Municipal Exemplo",
+  "totals": {
+    "enrolled": 420,
+    "present": 371,
+    "absent": 22,
+    "unmarked": 27
+  },
+  "by_source": {
+    "face_recognition_authorized": 298,
+    "manual": 73
+  },
+  "meal_planning": {
+    "eligible_present": 371,
+    "unmarked_safety_buffer": 27,
+    "safety_margin_percent": 5,
+    "estimated_meals": 418,
+    "by_shift": [
+      { "shift": "Manhã", "present": 198, "unmarked": 12, "estimated_meals": 221 },
+      { "shift": "Tarde", "present": 173, "unmarked": 15, "estimated_meals": 197 }
+    ],
+    "by_class": [
+      { "class": "1º Ano A", "shift": "Manhã", "present": 27, "unmarked": 1 },
+      { "class": "2º Ano B", "shift": "Manhã", "present": 25, "unmarked": 3 },
+      { "class": "5º Ano A", "shift": "Tarde", "present": 29, "unmarked": 0 }
+    ],
+    "essential_service_policy": "non_biometric_fallback_guaranteed"
+  }
+}

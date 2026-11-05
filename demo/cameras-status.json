@@ -1,0 +1,9 @@
+{
+  "_synthetic": "Dados 100% sintéticos para demonstração. Endereços e credenciais fictícios omitidos.",
+  "endpoint": "GET /api/v1/cameras (formato ilustrativo e simplificado)",
+  "cameras": [
+    { "id": "cam-entrada-01", "name": "Portaria Principal", "source": "rtsp", "status": "online", "fps": 15, "resolution": "1280x720", "vision": "enabled" },
+    { "id": "cam-patio-02", "name": "Pátio", "source": "onvif", "status": "online", "fps": 10, "resolution": "1920x1080", "vision": "disabled" },
+    { "id": "cam-usb-03", "name": "Recepção", "source": "usb", "status": "reconnecting", "fps": 0, "resolution": "1280x720", "vision": "enabled", "retry_in_seconds": 8 }
+  ]
+}

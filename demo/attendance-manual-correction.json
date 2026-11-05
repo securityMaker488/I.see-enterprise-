@@ -1,0 +1,20 @@
+{
+  "_synthetic": "Dados 100% sintéticos para demonstração.",
+  "endpoint": "POST /api/v1/verticals/school/attendance/manual (formato ilustrativo e simplificado)",
+  "student_id": "stu-0001",
+  "attendance_date": "2026-11-04",
+  "status": "present",
+  "source": "manual",
+  "metadata": {
+    "audit_history": [
+      {
+        "previous_status": "absent",
+        "new_status": "present",
+        "source": "manual",
+        "notes": "Aluno chegou após a primeira aula; registrado pela secretaria.",
+        "operator": "secretaria.exemplo",
+        "timestamp": "2026-11-04T09:42:10-03:00"
+      }
+    ]
+  }
+}
